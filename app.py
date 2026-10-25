@@ -151,7 +151,7 @@ def paypal_client():
     return PayPalClient(cid, sec, mode)
 
 def app_base_url():
-    return "http://localhost:8501"
+    return "https://hagglemart.streamlit.app/"
 
 def current_product():
     return next((p for p in load_products() if p["id"] == ss["product_id"]), None)
