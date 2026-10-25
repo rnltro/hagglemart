@@ -1,0 +1,35 @@
+[
+  {
+    "id": "film-camera",
+    "name": "Vintage Film Camera (35mm SLR)",
+    "description": "Fully serviced, new light seals, 50mm lens included. Test roll shot great.",
+    "price": 180.0,
+    "floor_price": 140.0,
+    "stock": 5,
+    "currency": "USD",
+    "faq": {
+      "film": "It uses standard 35mm film — any brand works.",
+      "battery": "Runs on one LR44 battery for the light meter; included."
+    }
+  },
+  {
+    "id": "coffee-bundle",
+    "name": "Small-Batch Coffee Bundle (3 × 250g)",
+    "description": "Roasted this week — choose your profile: bright, balanced, or dark.",
+    "price": 45.0,
+    "floor_price": 36.0,
+    "stock": 12,
+    "currency": "USD",
+    "faq": {}
+  },
+  {
+    "id": "art-print",
+    "name": "Limited Art Print (A2, signed)",
+    "description": "Archival pigment ink on 300gsm cotton rag. Edition of 50, signed & numbered.",
+    "price": 120.0,
+    "floor_price": 90.0,
+    "stock": 4,
+    "currency": "USD",
+    "faq": {}
+  }
+]
