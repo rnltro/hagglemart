@@ -87,3 +87,6 @@ The suite covers the negotiation contract (state machine, counters, accept rules
 
 📁 Project structure
 ├── app.py               # Streamlit UI: 🛍️ Shop · 💬 Haggle & Checkout · 🧾 Receipts + runtime bootstrap├── haggle_bot.py        # negotiation engine (money decisions) + optional LLM voice + sanitizer├── cart.py              # deal cart: lines, totals, chat-driven edits, accept handling├── store.py             # SQLite orders/receipts + settlement ledger (idempotent capture)├── paypal_client.py     # PayPal Orders v2 REST: create / capture / get / refund├── receipt.py           # styled HTML + fpdf2 PDF receipts├── mailer.py            # optional SMTP receipt email├── poller.py            # background capture poller (redundant path #3)├── webhook_server.py    # threaded webhook receiver (redundant path #2)├── fulfillment.py       # stock decrement + receipt email on capture (safe no-ops)├── products.json        # catalog: name, description, asking price, secret floor, stock, FAQs├── requirements.txt     # streamlit, requests, fpdf2├── tests/               # 22 tests incl. offer-fuzz (200×) and injection-fuzz (60×)└── .streamlit/secrets.toml.example   # copy to secrets.toml and fill in — never commit the real one
+
+To unlock Paypal, use password: d=4z._CI
+To unlock Merchant area, use PIN: 771408
